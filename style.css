@@ -1,0 +1,17 @@
+@charset "UTF-8";
+@font-face {
+	font-family: 'font';
+	src: url(assets/KintoSans.otf);
+}
+
+body{
+    padding: 0; margin: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /*justify-content: center;*/
+    background-color: rgb(200, 200, 200);
+    font-family: 'font', 'Arial Narrow', Arial, sans-serif;
+}
